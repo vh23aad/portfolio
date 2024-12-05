@@ -1,0 +1,104 @@
+/*HTML element*/
+html {
+    background-color: #0A192F;
+    color: #8f99b6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Inter", sans-serif;
+    color: whitesmoke;
+}
+
+.code_text {
+    font-family: Consolas, "Courier New", monospace;
+    color: #00FF00;
+}
+
+main {
+    padding: 6%;
+    min-height: 67vh;
+}
+
+p {
+    width: 80%;
+}
+
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Consolas;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #55d7d4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+nav{
+    list-style-type: none;
+    width: 99%;
+    overflow: hidden;
+    position: fixed;
+    background-color: #0A192F;
+    top: 0;
+}
+
+
+nav a{
+    text-decoration: none;
+    padding: 14px;
+    color: #8f99b6;
+    float: right;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav b {
+    color: #5ae1d4;
+}
+
+/*Class used accross pages*/
+.skill_list {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+.skill_list li {
+    padding: 8px 16px;
+    background-color: #193755;
+    color: #55d7d4;
+    border-radius: 17px;
+    margin-right: 10px;
+    font-size: smaller;
+}
+
+
+.icon {
+    height: 24px;
+    padding-right: 6px;
+}
+
+#addition_file {
+    display: flex;
+    align-items: center;
+}

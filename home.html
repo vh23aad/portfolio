@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viet Anh Hoang - Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="#portfolio">
+            <b>02.</b> Work Experience</a>
+        <a href="#interest">
+            <b>01.</b> Technical Interest</a>
+        <a href="#about_me">
+            <b>00.</b> About me</a>
+    </nav>
+    
+    <main>
+        <div id="about_me">
+            <span class="code_text">Hi, I am</span>
+            <h1>Viet Anh Hoang</h1>
+            <div id="profile">
+                <img src="images/personal_image.jpg" id="avatar" alt="avatar">
+                <ul class="code_text">
+                    <li>Level 5 (Year 2)</li>
+                    <li>BSc(Hons) Computer Science</li>
+                    <li>University of Hertfordshire</li>
+                </ul>
+            </div>    
+            <h2>About me</h2>
+            <p>I'm a self-disciplined, and motivated international student. Technology is the field I'm incredibly passionate about, and I'm eager to embrace on emerging technologies and hoping to gain vital knowledge through solving real-world problems.</p>
+            <p>I'm also a quick learner with deep understanding and strong fundamental in programming, problem solving and computer science concepts.</p>
+            <p>Here are technologies I've learned and worked on: </p>
+            <!--TODO: Lists my tech "stack"-->
+            <div class="skills">
+                <div id="programming">
+                    <h3>Programming</h3>
+                    <div id="programming_list">
+                        <div class="skills_items">Python</div>
+                        <div class="skills_items">Java</div>
+                        <div class="skills_items">HTML/CSS</div>
+                        <div class="skills_items">JavaScript</div>
+                        <div class="skills_items">Assembly<br>(Cdm-8)</div>
+                        <div class="skills_items">C</div>
+                    </div>
+                </div>
+                <div id="database">
+                    <h3>Database</h3>
+                    <ul class="special_list">
+                        <li>Oracle SQL Developer</li>
+                        <li>MongoDB</li>
+                        <li>Elasticsearch</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </div>
+                <div id="other">
+                    <h3>Other knowledge</h3>
+                    <ul class="special_list">
+                        <li>Object Oriented Programming</li>
+                        <li>Git + GitHub</li>
+                        <li>REST API, Websocket, gRPC</li>
+                        <li>Prompt Engineering</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <div id="interest">
+            <span class="code_text"><br>I'm interested in..</span>
+            <h2>Software Development<span class="code_text"> &lt/&gt</span></h2>
+            <div id="interest_description" style="display: inline-flex;">
+                <div id="interest_text">
+                    <p>I really enjoy solving problems through programming and "make it works". The process of transforming complex challenges into functional code is deeply satisfying, and it pushes me to continually learn and improve. I found myself usually dedicative, passionate and "locked in" whenever I begin developing any pieces of software from <b>Python, Java</b> programming to website development</p>
+                    <p>While my primary interest lies in software development, I am also open to exploring related fields like artificial intelligence and machine learning to broaden my knowledge. In this day and age, I believe AI are quite a fascinating areas, which open up new possibilities for innovation but also brings ethical questions to the security, development of it.</p> 
+                    <p>In general, I am eager to learn how advanced technologies can be integrated into software, transforming creative ideas to lines of code and result in smarter and impactful solutions for our lives.</p>
+                </div>
+                <img src="images/cat_programming.jpg" alt="Cat programming">
+        </div>
+            
+            
+        </div>
+
+        <div id="portfolio">
+            <h2>My Work Experience</h2>
+            <div class="collapse_wrapper" id="job1">
+                <div class="experience_box">
+                    <div class="time_period">Sep 24 -<br>Present</div>
+                    <div class="timeline_graph">
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="experience_details">
+                        <a href="stm.html"><h3>Student Technology Mentor</h3></a>
+                        <div class="company">at University of Hertfordshire</div>
+                        <ul class="skill_list">
+                            <li>Communication</li>
+                            <li>Adaptibility</li> 
+                        </ul>
+                    </div>
+                    <div class="collapse_indicator">></div>   
+                </div>
+                <div class="expand_content">
+                    <div style="display: flex;" class="expand_row">
+                        <span><b>Location:</b> Hatfield, United Kingdom</span>
+                        <span><b>Type:</b> Part-time</span>
+                    </div><br>
+                    <div class="description expand_row">
+                        <b>Description: </b><br>
+                        <span>As an STM, I provided technical support to staff and students by resolving various technology difficulties in an effective manner and assisting students in understanding university technology kits and software.</span>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            
+            <div class="collapse_wrapper" id="job2">
+                <div class="experience_box">
+                    <div class="time_period">Jun 24 -<br>Sep 24</div>
+                    <div class="timeline_graph">
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="experience_details">
+                        <a href="swe.html">
+                            <h3>Software Developer Intern</h3>
+                        </a>
+                        <div class="company">at Phenikaa-X</div>
+                        <!--TODO: Fix issue when stretching-->
+                        <ul class="skill_list">
+                            <li>Python</li>
+                            <li>Database Systems</li>
+                            <li>Web Development</li>
+                            <li>Prompt Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="collapse_indicator">></div> 
+                </div>
+                <div class="expand_content">
+                    <div style="display: flex;" class="expand_row">
+                        <span><b>Location:</b> Hanoi, Vietnam</span>
+                        <span><b>Type:</b> Internship</span>
+                    </div><br>
+                    <div class="description expand_row">
+                        <b>Description: </b><br>
+                        <ul>
+                            <li>Implemented <b>Python</b>-based solutions for processing large documents by automating segmentation, and structuring nested data.</li>
+                            <li>Researched and evaluated on <b>MongoDB</b>, <b>Elasticsearch</b>, <b>PostgreSQL</b> to enhance search efficiency across datasets</li>
+                            <li>Gained hands-on experience for back-end development with <b>REST API</b>, <b>websocket</b> or <b>gRPC</b> while integrating web interfaces for testing segmentation and semantic search capabilities</li> 
+                            <li>Optimising <b>GPT-4o</b> answers by 40% with efficient chain-of-thought/one-shot prompting</li>
+                        </ul>
+                    </div>
+                    <div id="addition_file" class="expand_row">
+                        <img src="images/attached_file_icon.png" alt="file attached icon" class="icon">
+                        <a href="document/phenikaa-internship-certificate.pdf" download target="_blank">Internship Certificate</a>
+                    </div>
+                    
+                    <br>
+                </div>
+            </div>   
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <a href="https://wa.me/447518480949" target="_blank">
+                <img src="images/whatsapp-white-icon.png" alt="whatsapp icon" class="icon">
+            </a>  
+            <a href="mailto:hoangvietanh730@gmail.com" target="_blank">
+                <img src="images/gmail_icon.png" alt="gmail icon" class="icon">
+            </a>
+            <a href="https://www.linkedin.com/in/vanhhoang28" alt="linkedin profile" target="_blank">
+                <img src="images/linkedin_logo.png" alt="linkedin icon" class="icon">
+            </a>
+        </div>
+        
+        <p style="width: auto;">Developed and built by Viet Anh Hoang :3</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

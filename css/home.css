@@ -1,0 +1,193 @@
+/*About me section*/
+#avatar {
+    border-radius: 50%;
+    max-width: 130px;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#about_me li {
+    margin: 20px;
+}
+
+.skills {
+    display: inline-flex;
+}
+
+#programming {
+    width: 400px;
+}
+
+#programming_list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+    column-gap: 10spx;
+    list-style-type: none;
+}
+
+.skills_items {
+    border: 1px solid #8f99b6;
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#database {
+    margin-right: 100px;
+}
+
+.special_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.special_list li {
+    margin: 10px 0 !important;
+}
+
+#database li::before {
+    content: "✓ ";
+}
+
+#other li::before {
+    content: "▶ ";
+}
+
+/*Tech interest*/
+#interest_description img {
+    height: auto; 
+    border-radius: 10px;
+    width: auto;
+}
+
+#interest {
+    margin: 40px 0;
+}
+
+/*Work experience*/
+#portfolio {
+    padding-top: 20px;
+}
+
+
+.collapse_wrapper {
+    margin-left: -10px;
+}
+
+.collapse_wrapper:hover {
+    border-radius: 15px;
+    background-color: #192942;
+    .experience_details h3 {
+        color: #5ae1d4;
+    }
+}
+
+.collapse_wrapper:hover, .collapse_wrapper.active {
+    .circle {
+        background-color: #8f99b6;
+    }  
+}
+
+.collapse_indicator {
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: xx-large;
+    font-family: monospace;
+    rotate: 90deg;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.experience_box {
+    display: inline-flex;
+    height: 124px;
+    align-items: center;
+    width: 100%;
+}
+
+.timeline_graph {
+    width: 24px;
+    height: 124px;
+}
+
+
+.line {
+    border-left: 2px solid #8f99b6;
+    height: 50px;
+    margin-left: 11px;
+}
+
+.circle {
+    border: 2px solid #8f99b6;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+
+.time_period {
+    width: 70px;
+    text-align: right;
+    padding-right: 19px;
+    padding-left: 10px;
+}
+
+.experience_details {
+    padding-left: 30px;
+}
+
+.experience_details a {
+    margin-top: 0;
+    display: inline-block;
+}
+
+.experience_details h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.company {
+    margin-top: 2px;
+    padding: 0;
+}
+
+
+/*Expand section*/
+.expand_content {
+    border-left: 2px solid #8f99b6;
+    height: 100%;
+    margin-left: 110px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+}
+
+.expand_content span {
+    width: 400px;
+}
+
+.expand_content b {
+    font-family: Consolas;
+    color: #55d7d4;
+
+}
+
+.description ul b{
+    color: #00FF00;
+}
+
+
+.description {
+    width: 85%;
+}
+
+.expand_row {
+    margin-left: 42px;
+}
